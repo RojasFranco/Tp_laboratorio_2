@@ -148,7 +148,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculadora de Franco Rojas del curso 2°B";
+            this.Text = "Calculadora de Franco Rojas del curso 2°C";
             this.ResumeLayout(false);
             this.PerformLayout();
 

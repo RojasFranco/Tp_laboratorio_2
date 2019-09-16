@@ -22,7 +22,13 @@ namespace MiCalculadora
             comboBoxOperacion.Items.Add("/");*/
         }
 
-
+        /// <summary>
+        /// Realiza operacion entre dos numeros
+        /// </summary>
+        /// <param name="numero1">Primer numero</param>
+        /// <param name="numero2">Segundo numero</param>
+        /// <param name="operador">Operacion a realizar</param>
+        /// <returns>resultado de la operacion</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
             Numero primerNumero = new Numero();
@@ -36,6 +42,11 @@ namespace MiCalculadora
             return resultado;            
         }
         
+        /// <summary>
+        /// Realiza operacion entre dos numeros
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonOperar_Click(object sender, EventArgs e)
         {
             double resultado=Operar(textPrimerNumero.Text, textSegundoNumero.Text, comboBoxOperacion.Text);
@@ -49,7 +60,9 @@ namespace MiCalculadora
             }            
         }
 
-        
+        /// <summary>
+        /// Limpia todos los valores de la calculadora
+        /// </summary>
         private void Limpiar()
         {
             textPrimerNumero.Clear();
@@ -57,16 +70,32 @@ namespace MiCalculadora
             comboBoxOperacion.Text = "";
             labelMostrarResultado.Text = "";
         }
+
+        /// <summary>
+        /// Limpia todos los valores de la calculadora
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
         }
 
+        /// <summary>
+        /// Cierra la calculadora
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonCerrar_Click(object sender, EventArgs e)
         {            
             this.Close();
         }
 
+        /// <summary>
+        /// Convierte un numero a binario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonConvertABinario_Click(object sender, EventArgs e)
         {
             string numeroAConvertir = labelMostrarResultado.Text;
@@ -74,6 +103,11 @@ namespace MiCalculadora
             labelMostrarResultado.Text = retorno;
         }
 
+        /// <summary>
+        /// Convierte un numero binario a decimal
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonConvertADecimal_Click(object sender, EventArgs e)
         {
             string retorno;

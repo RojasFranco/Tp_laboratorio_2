@@ -9,7 +9,9 @@ namespace Entidades
     public class Numero
     {
         private double numero;
-
+        /// <summary>
+        /// Asigna el valor en el atributo del objeto
+        /// </summary>
         public string SetNumero
         {
             set
@@ -20,27 +22,43 @@ namespace Entidades
         
 
         #region Constructores
-
+        /// <summary>
+        /// Constructor inicial
+        /// </summary>
         public Numero()
         {
             this.numero = 0;
         }
 
+        /// <summary>
+        /// Constructor con parametro double
+        /// </summary>
+        /// <param name="numero">numero a asignar al atributo numero</param>
         public Numero(double numero)
         {
             this.numero = numero;
         }
 
+        /// <summary>
+        /// Constructor validando numero recibido como string
+        /// </summary>
+        /// <param name="strNumero">numero recibido como string</param>
         public Numero(string strNumero)
         {
-            double strADouble = Convert.ToDouble(strNumero);
-            this.numero = strADouble;
+            
+            SetNumero = strNumero;
+            
         }
 
         #endregion
 
         #region Metodos
         
+        /// <summary>
+        /// Valida que el dato recibido sea numero
+        /// </summary>
+        /// <param name="strNumero">numero recibido como string</param>
+        /// <returns>retorna el numero recibido si es valido, 0 en caso contrario</returns>
         private double ValidarNumero(string strNumero)
         {
             double retorno;
@@ -52,7 +70,11 @@ namespace Entidades
             return retorno;            
         }
         
-        
+        /// <summary>
+        /// Convierte numero binario en decimal
+        /// </summary>
+        /// <param name="binario">numero recibido como string</param>
+        /// <returns>retorna el binario en decimal, o valor invalido si no es posible convertirlo</returns>
         public static string BinarioDecimal(string binario)
         {
             double retorno=0;            
@@ -81,11 +103,16 @@ namespace Entidades
             return retorno.ToString();
         }
 
+        /// <summary>
+        /// Convierte numero decimal a binario
+        /// </summary>
+        /// <param name="numero">numero recibido</param>
+        /// <returns>retorna el numero convertido, caso contrario un string vacio</returns>
         public static string DecimalBinario(double numero)
         {
             string retorno=string.Empty;
             int auxNumero = (int)numero;            
-
+            
             while((auxNumero/2)>1)
             {
                 retorno = string.Format("{0}{1}", auxNumero % 2, retorno);
@@ -94,13 +121,18 @@ namespace Entidades
             retorno = string.Format("{0}{1}{2}",auxNumero / 2, auxNumero%2 ,retorno);            
             return retorno;
         }
-        
+
+        /// <summary>
+        /// Convierte numero decimal a binario
+        /// </summary>
+        /// <param name="strNumero">numero recibido como string</param>
+        /// <returns>Numero converdiro a binario, caso contrario valor invalido</returns>
         public static string DecimalBinario(string strNumero)
         {
             string retorno = string.Empty;
             Numero numeroRecibido = new Numero();
             numeroRecibido.SetNumero = strNumero;            
-            if(numeroRecibido.numero>0)
+            if(numeroRecibido.numero>=1)
             {
                 retorno = Numero.DecimalBinario(numeroRecibido.numero);
             }
@@ -110,28 +142,52 @@ namespace Entidades
             }
             return retorno;
         }
-        
+
 
         #endregion
 
 
         #region Sobrecargas
 
+        /// <summary>
+        /// Realiza resta entre el numero de 2 objetos
+        /// </summary>
+        /// <param name="num1">Primer numero</param>
+        /// <param name="num2">Segundo numero</param>
+        /// <returns>resultado de la resta entre los numeros</returns>
         public static double operator -(Numero num1, Numero num2)
         {
             return num1.numero - num2.numero;
         }
 
+        /// <summary>
+        /// Realiza suma entre el numero de 2 objetos
+        /// </summary>
+        /// <param name="num1">Primer numero</param>
+        /// <param name="num2">Segundo numero</param>
+        /// <returns>resultado de la resta entre los numeros</returns>
         public static double operator +(Numero num1, Numero num2)
         {
             return num1.numero + num2.numero;
         }
 
+        /// <summary>
+        /// Realiza multiplicacion entre el numero de 2 objetos
+        /// </summary>
+        /// <param name="num1">Primer numero</param>
+        /// <param name="num2">Segundo numero</param>
+        /// <returns>resultado de la multiplicacion entre los numeros</returns>
         public static double operator *(Numero num1, Numero num2)
         {
             return num1.numero * num2.numero;
         }
 
+        /// <summary>
+        /// Realiza division entre el numero de 2 objetos
+        /// </summary>
+        /// <param name="num1">Primer numero</param>
+        /// <param name="num2">Segundo numero</param>
+        /// <returns>division entre los numeros, o el minimo valor doble en caso contrario</returns>
         public static double operator /(Numero num1, Numero num2)
         {
             double retorno;

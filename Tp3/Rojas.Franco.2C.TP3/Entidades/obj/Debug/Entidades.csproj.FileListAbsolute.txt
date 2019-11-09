@@ -1,0 +1,8 @@
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Entidades\bin\Debug\Entidades.dll
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Entidades\bin\Debug\Entidades.pdb
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Entidades\obj\Debug\Entidades.dll
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Entidades\obj\Debug\Entidades.pdb
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Entidades\bin\Debug\Excepciones.dll
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Entidades\obj\Debug\Entidades.csproj.CopyComplete

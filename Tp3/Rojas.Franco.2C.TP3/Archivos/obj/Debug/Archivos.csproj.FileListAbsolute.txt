@@ -1,0 +1,8 @@
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Archivos\bin\Debug\Excepciones.dll
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Archivos\obj\Debug\Archivos.pdb

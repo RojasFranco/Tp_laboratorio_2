@@ -1,0 +1,5 @@
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\leo\Desktop\Tp3\Rojas.Franco.2C.TP3\Excepciones\obj\Debug\Excepciones.pdb

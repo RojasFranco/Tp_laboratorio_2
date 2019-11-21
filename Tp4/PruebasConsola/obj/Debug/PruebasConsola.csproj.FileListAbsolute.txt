@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\Tp4\PruebasConsola\bin\Debug\PruebasConsola.exe.config
+C:\Users\user\Desktop\Tp4\PruebasConsola\bin\Debug\PruebasConsola.exe
+C:\Users\user\Desktop\Tp4\PruebasConsola\bin\Debug\PruebasConsola.pdb
+C:\Users\user\Desktop\Tp4\PruebasConsola\bin\Debug\Entidades.dll
+C:\Users\user\Desktop\Tp4\PruebasConsola\bin\Debug\Entidades.pdb
+C:\Users\user\Desktop\Tp4\PruebasConsola\obj\Debug\PruebasConsola.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Tp4\PruebasConsola\obj\Debug\PruebasConsola.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Tp4\PruebasConsola\obj\Debug\PruebasConsola.csproj.CopyComplete
+C:\Users\user\Desktop\Tp4\PruebasConsola\obj\Debug\PruebasConsola.exe
+C:\Users\user\Desktop\Tp4\PruebasConsola\obj\Debug\PruebasConsola.pdb
